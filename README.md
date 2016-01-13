@@ -15,7 +15,11 @@ RsaLib.hs (helper function)
 - rsa-decrypt reads a list of integers (encrypted string) from stdin and decrypts it using rsa-prv.key. It prints the cleartext in stdout.
 
 ## Example Encryption
+```bash
 cat cleartext.txt | ./rsa-encrypt > encrypted
+```
 
 ## Example Decryption
+```bash
 cat encrypted | ./rsa-decrypt > cleartext.txt
+```
